@@ -1,0 +1,36 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.0'
+    }
+}
+apply plugin: 'com.android.application'
+
+repositories {
+    mavenCentral()
+    google()
+}
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "25.0.3"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 29
+    }
+}
+
+dependencies {
+    implementation "androidx.legacy:legacy-support-v4:1.0.0"
+    implementation "androidx.legacy:legacy-support-v13:1.0.0"
+    implementation "androidx.appcompat:appcompat:1.1.0"
+    implementation "androidx.palette:palette:1.0.0"
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation files('libs/volley.jar')
+}
