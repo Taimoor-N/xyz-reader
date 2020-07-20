@@ -32,7 +32,8 @@
             android:paddingTop="8dp"
             android:paddingRight="8dp"
             android:paddingBottom="8dp"
-            android:textColor="@color/ltgray"
+            android:text="@string/placeholder_detail_article_title"
+            android:textColor="@color/text_grey_700"
             android:ellipsize="end"
             android:maxLines="1" />
 
@@ -44,7 +45,8 @@
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
             android:paddingBottom="8dp"
-            android:textColor="#6000"
+            android:text="@string/placeholder_detail_article_byline"
+            android:textColor="@android:color/black"
             android:lines="2"
             android:ellipsize="end" />
     </LinearLayout>

@@ -7,6 +7,9 @@
     <string name="action_settings">Settings</string>
     <string name="action_share">Share</string>
 
+    <string name="placeholder_detail_article_title">Deathly Hallows</string>
+    <string name="placeholder_detail_article_byline">by James W. Winchester</string>
+
     <string name="up">Up</string>
 
 </resources>
