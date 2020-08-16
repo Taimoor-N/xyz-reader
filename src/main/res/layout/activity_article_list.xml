@@ -7,7 +7,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:elevation="8dp">
+        android:elevation="@dimen/app_bar_elevation">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
